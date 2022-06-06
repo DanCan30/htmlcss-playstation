@@ -16,6 +16,10 @@ img {
     width: 100%;
 }
 
+h2 {
+    font-size: 3rem;
+}
+
 .dd_btn-orange {
     display: inline-block;
     color: white;
@@ -79,11 +83,6 @@ img {
     width: 50%;
 }
 
-.dd_buy-now-section-1 h2,
-.dd_buy-now-section-2 h2  {
-    font-size: 3.2rem;
-}
-
 .dd_buy-now-section-2 h2,
 .dd_buy-now-section-2 p {
     text-shadow: 0 0 3px black;
@@ -97,14 +96,17 @@ img {
 
 /* PS5 */
 
-.dd_ps5 h2 {
-    font-size: 3rem;
-}
-
 .dd_ps5 p {
     font-size: 1.2rem;
     color: #727272;
     padding: 50px 0;
+}
+
+/* New Games */
+
+.dd_new-games {
+    background-color: #1F1F1F;
+    color: white;
 }
 
 
