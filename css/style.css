@@ -1,0 +1,75 @@
+/* General */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    margin-top: 160px;
+}
+
+section {
+    padding: 80px 20px;
+}
+
+.dd_btn-orange {
+    display: inline-block;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 30px;
+    background-color: #CD3D0F;
+    border: 1px solid #9F2F0C;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+/* Header */
+
+.dd_header-top img {
+    width: 200px;
+}
+
+.navbar-brand img {
+    width: 4rem;
+}
+
+/* Jumbo */
+
+.dd_buy-now-section-1 {
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.dd_buy-now-section-1 img {
+    padding-top: 300px;
+    padding-bottom: 2rem;
+    min-width: 350px;
+    width: 50%;
+}
+
+.dd_buy-now-section-1 h2 {
+    font-size: 3.2rem;
+}
+
+.dd_buy-now-section-1 p {
+    font-size: 1.2rem;
+    padding: 40px 0;
+}
+
+
+
+@media screen and (min-width: 992px) {
+    
+.dd_buy-now-section-1 img {
+    width: 250px;
+    min-width: 0;
+}
+
+.dd_buy-now-section-1 p {
+    width: 450px;
+}
+
+}
