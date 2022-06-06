@@ -52,10 +52,16 @@ img {
     width: 4rem;
 }
 
-/* Jumbo */
+/* Buy Now */
 
 .dd_buy-now-section-1 {
     background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.dd_buy-now-section-2 {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -67,11 +73,24 @@ img {
     width: 50%;
 }
 
-.dd_buy-now-section-1 h2 {
+.dd_buy-now-section-2 img {
+    padding-bottom: 2rem;
+    min-width: 350px;
+    width: 50%;
+}
+
+.dd_buy-now-section-1 h2,
+.dd_buy-now-section-2 h2  {
     font-size: 3.2rem;
 }
 
-.dd_buy-now-section-1 p {
+.dd_buy-now-section-2 h2,
+.dd_buy-now-section-2 p {
+    text-shadow: 0 0 3px black;
+}
+
+.dd_buy-now-section-1 p,
+.dd_buy-now-section-2 p {
     font-size: 1.2rem;
     padding: 40px 0;
 }
@@ -89,19 +108,24 @@ img {
 }
 
 
-
 @media screen and (min-width: 992px) {
 
 .dd_buy-now-section-1 {
     padding-top: 200px;
 }
 
-.dd_buy-now-section-1 img {
+.dd_buy-now-section-1 img,
+.dd_buy-now-section-2 img {
     width: 250px;
     min-width: 0;
 }
 
-.dd_buy-now-section-1 p {
+.dd_buy-now-section-1 p,
+.dd_buy-now-section-2 p {
+    width: 450px;
+}
+
+.dd_buy-now-section-2 h2 {
     width: 450px;
 }
 
