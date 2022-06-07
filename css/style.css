@@ -35,6 +35,18 @@ h2 {
     font-size: 3rem;
 }
 
+.dd_btn-black {
+    display: inline-block;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 30px;
+    background-color: #363636;
+    border: 1px solid #000;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
 .dd_btn-orange {
     display: inline-block;
     color: white;
@@ -95,6 +107,22 @@ h2 {
     width: 4rem;
 }
 
+.dd_menu-items {
+    color: #000;
+}
+
+.dd_search-logo {
+    width: 40px;
+}
+
+.dd_dropdown {
+    transform: translateY(-10px);
+    width: 100vw;
+    border-radius: 0;
+    border: none;
+    position: absolute;
+}
+
 /* Buy Now */
 
 .dd_buy-now-section-1 {
@@ -132,6 +160,7 @@ h2 {
     font-size: 1.2rem;
     padding: 40px 0;
 }
+
 
 /* PS5 */
 
@@ -230,4 +259,12 @@ footer a {
     .dd_ps-plus-left p {
         font-weight: bold;
     }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .dd_search-logo {
+        margin-top: 20px;
+    }
+
 }
