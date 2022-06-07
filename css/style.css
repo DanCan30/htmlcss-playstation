@@ -8,8 +8,23 @@ main {
     margin-top: 160px;
 }
 
-section {
+section,
+footer {
     padding: 80px 20px;
+}
+
+footer {
+    background-color: #00439C;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
 }
 
 img {
@@ -39,6 +54,30 @@ h2 {
     border-radius: 30px;
     background-color: #2D64E6;
     border: 1px solid #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.dd_btn-grey {
+    display: inline-block;
+    color: #2E65E6;
+    padding: 10px 15px;
+    border-radius: 30px;
+    background-color: #D9DADC;
+    border: 1px solid #D5D6D7;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.dd_btn-white {
+    display: inline-block;
+    color: #000;
+    padding: 10px 15px;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 1px solid #D5D6D7;
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: bold;
@@ -117,6 +156,40 @@ h2 {
     color: #727272;
 }
 
+/* PS Premium Services */
+
+.dd_ps-plus {
+    background-color: #BEBCBB;
+}
+
+.dd_ps-now {
+    background-color: #161C3B;
+}
+
+/* Sales */
+
+.dd_sales p {
+    color: #727272;
+}
+
+
+/* Footer */
+
+.dd_footer-logo {
+    width: 100px;
+}
+
+.dd_sie-logo {
+    width: 200px;
+}
+
+.dd_language-logo {
+    width: 25px;
+}
+
+footer a {
+    line-height: 2rem;
+}
 
 @media screen and (min-width: 992px) {
 
@@ -139,4 +212,22 @@ h2 {
     width: 450px;
 }
 
+.dd_ps-plus-logo {
+    width: 500px;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+    .dd_ps-plus-logo {
+        width: 50%;
+    }
+
+    .dd_ps-plus-left {
+        padding: 50px 0;
+    }
+
+    .dd_ps-plus-left p {
+        font-weight: bold;
+    }
 }
