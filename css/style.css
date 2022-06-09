@@ -146,7 +146,7 @@ h2 {
 
 .dd_dropdown {
     transform: translateY(-10px);
-    width: 100vw;
+    width: 100%;
     border-radius: 0;
     border: none;
     position: absolute;
@@ -218,12 +218,13 @@ h2 {
 
 .dd_accessories {
     border-bottom: 3px solid transparent;
+    opacity: .5;
 }
 
 .dd_accessories:hover {
     cursor: pointer;
     border-bottom: 3px solid #2D64E6;
-    opacity: .5;
+    opacity: 1;
     transition: .3s;
 }
 
